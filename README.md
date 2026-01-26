@@ -7,24 +7,75 @@
 
 ❗ 🔗 Enlace figma: https://www.figma.com/design/kXls9HgPCWsAlqNbuerbe4/Gestor_Estancias_Formativas?node-id=4-1651&t=Xt4aIoaiDNVJ6pQd-0
 
+Introducción
 
-‼️ Pasos a seguir:
+Aplicación web para gestionar las estancias formativas de los alumnos, permitiendo el seguimiento y evaluación por parte de tutores de centro, tutores de empresa y administradores.
 
-💮 Al entrar ➡️ Conexion BD ➡️ Mostrar Login.
+Requisitos
 
-💮 Al hacer login ➡️ Vista principal del perfil.
+Navegador web (recomendado Google Chrome)
 
+Conexión a Internet
 
-💥Permisos del tutor de centro: 👇
+Usuario registrado en el sistema
 
-💮 Buscar alumno ➡️ Buscar por año ➡️ Buscar por ciclo ➡️ Buscar por nombre.
+Acceso a la plataforma
 
-💮 Relacionar empresa con alumno ➡️ Desplegable de empresa ➡️ Rellenar automaticamente ➡️ Desplegable tutor empresa ➡️ Rellenar automaticamente.
+Login: Todos los usuarios acceden con su email y contraseña.
 
-💮 Poner nota a asignaturas ➡️ Permitir solo del 0-10 float solo 1 decimal.
+Logout: Cierre de sesión desde la aplicación.
 
-💮 Corregir cuaderno de prácticas ➡️ Subir nueva version ➡️ Poner comentario.
+Roles y funcionalidades
+👤 Administrador
 
-💮 Poner calendario a alumno ➡️ Elegir día inicial y día final. (➡️ Los días se generan automaticos | ➡️ Pone los días manualmente)
+Crear usuarios.
 
-💮 Poner horario a alumno ➡️ Elegir el día de la semana ➡️ Elegir horario (mañana | tarde) ➡️ Elegir hora inicial ➡️ elegir hora final
+Crear empresas.
+
+Crear competencias técnicas.
+
+Crear resultados de aprendizaje (RAs).
+
+Cerrar sesión.
+
+🏫 Tutor de Centro
+
+Ver información de alumnos y alumnos sin tutor.
+
+Crear, ver y editar calendarios.
+
+Asignar empresas y tutores de empresa.
+
+Ver, crear, editar y eliminar seguimientos.
+
+Ver y modificar notas.
+
+Calcular la nota final.
+
+Crear y evaluar entregas de cuadernos.
+
+🏢 Tutor de Empresa
+
+Ver información de sus alumnos.
+
+Ver calendarios (solo lectura).
+
+Evaluar competencias técnicas y transversales.
+
+Ver notas del alumno.
+
+No puede ver ni gestionar seguimientos ni cuadernos.
+
+🎓 Alumno
+
+Ver su información personal.
+
+Ver calendario (solo lectura).
+
+Ver empresa y tutor asignados.
+
+Ver seguimientos.
+
+Ver notas y calcularlas.
+
+Subir su cuaderno en PDF cuando haya una entrega disponible.
